@@ -1,0 +1,35 @@
+.sidebar-wrapper {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 20px 0px;
+}
+
+#sidebar-header {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 6px;
+}
+
+.sidebar-wrapper ul {
+  list-style: none;
+  padding: 0px 0px 20px 0px;
+}
+
+.sidebar-wrapper ul li {
+  margin: 20px 0px;
+}
+
+.sidebar-wrapper ul li a {
+  color: #fff;
+}
+
+.sidebar-wrapper ul li a:hover {
+  color: orange !important;
+  text-decoration: none;
+}
+
+.sidebar-menu-active p {
+  transform: translateX(15px);
+  color: orange !important;
+  font-weight: bold;
+}

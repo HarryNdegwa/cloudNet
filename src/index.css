@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#content {
+  flex: 1 0 auto;
+}
+
+.custom-button {
+  background-color: #0b253d !important;
+  color: #fff;
+  width: 200px;
+  border-radius: 20px;
+  border: none;
+}
+
+.custom-button:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.custom-button:hover {
+  background-color: orange !important;
+  color: #fff;
+}
+
+.custom-h1 {
+  font-weight: bolder;
+  font-size: 3rem;
+  color: #003849 !important;
+}
+
+.auth-btn {
+  background-color: orange;
+  color: #fff;
+  border: none;
+}
+
+.auth-btn:hover {
+  color: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  border: 1px solid #d4d4d4;
+  /* background-color: #d4d4d4; */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #d4d4d4;
+}
+
+.auth-btn:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.form-error {
+  color: red;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: orange;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1099px) {
+  .custom-h1 {
+    font-size: 2.7rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .custom-h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .custom-h1 {
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .custom-h1 {
+    font-size: 2.8rem;
+  }
+}

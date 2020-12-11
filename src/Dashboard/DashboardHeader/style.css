@@ -1,0 +1,91 @@
+.dashboard-header {
+  height: 80px;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.dashboard-header a,
+.dashboard-header a:hover {
+  text-decoration: none;
+}
+
+.dashboard-header .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dashboard-brand {
+  color: #00c4d0;
+  flex: 1;
+}
+
+.dashboard-brand:hover {
+  color: #00c4d0;
+}
+
+.dashboard-header-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex: 1;
+}
+
+.dashboard-header-menu p {
+  font-weight: 500;
+  color: #000;
+}
+
+.dashboard-header-menu a p:hover {
+  color: orange;
+}
+
+.active-header-menu p {
+  color: orange !important;
+  border-bottom: 3px solid orange;
+}
+
+.register-link {
+  background-color: orange;
+  border-radius: 15px;
+  border: none;
+}
+
+.register-link:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.register-link p {
+  color: #fff !important;
+}
+
+.register-link:hover p {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 991px) {
+  .dashboard-header-menu {
+    flex: 2;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .dashboard-header {
+    background-image: linear-gradient(to bottom right, #00c4d0, #00e3e9);
+  }
+
+  .dashboard-header-menu {
+    display: none;
+  }
+
+  .dashboard-brand {
+    color: #fff;
+    flex: 1;
+  }
+
+  .dashboard-brand:hover {
+    color: #fff;
+  }
+}

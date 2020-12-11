@@ -1,0 +1,19 @@
+.footer {
+  height: 500px;
+  background-color: #003849;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.footer-copyright {
+  background-color: #0b253d;
+  height: 50px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  left: 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

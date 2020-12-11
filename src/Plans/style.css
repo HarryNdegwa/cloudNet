@@ -1,0 +1,77 @@
+.plans {
+  text-align: center;
+}
+
+#plan-term-btns {
+  background-color: #fff;
+  border-radius: 20px;
+  height: 40px !important;
+  display: inline-block;
+}
+
+.plan-term-btn {
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
+}
+
+.active-plan {
+  background-color: #00e3e9;
+}
+
+.plan-card {
+  min-height: 500px;
+  background-color: #fff;
+  margin: 10px 0px;
+  position: relative;
+}
+
+.plan-card:hover .plan-card-header {
+  color: orange !important;
+}
+
+.plan-card-header {
+  height: 80px;
+  border-bottom: 1px solid #d4d4d4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plan-card-body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 10%;
+  color: rgba(0, 0, 0, 0.5);
+  height: 370px;
+}
+
+.plan-card-body h1 {
+  color: orange !important;
+}
+
+.plan-card-body h6 {
+  margin: 10px 0px;
+}
+
+.plan-card-footer {
+  height: 50px;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  bottom: 0px;
+}
+
+.plan-signin-btn,
+.plan-tryit-btn {
+  width: 100px !important;
+}
+
+@media screen and (max-width: 991px) {
+  .plan-signin-btn,
+  .plan-tryit-btn {
+    width: 80px !important;
+  }
+}

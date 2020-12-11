@@ -1,0 +1,49 @@
+.hero {
+  height: 500px;
+  background-image: linear-gradient(to bottom right, #00c4d0, #00e3e9);
+}
+
+.hero .container,
+.hero .container .row {
+  height: 100%;
+}
+
+.hero-text h6 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.hero-button {
+  background-color: #0b253d;
+  color: #fff;
+  width: 300px;
+  border-radius: 20px;
+  border: none;
+}
+
+.hero-button:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.hero-button:hover {
+  background-color: orange;
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .hero {
+    height: 650px;
+    background-image: linear-gradient(to bottom right, #00c4d0, #00e3e9);
+  }
+
+  .hero .row {
+    flex-wrap: wrap-reverse !important;
+  }
+
+  .hero-text {
+    text-align: center !important;
+  }
+}

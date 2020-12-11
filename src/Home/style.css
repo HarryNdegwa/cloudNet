@@ -1,0 +1,67 @@
+.index-about {
+  color: #0b253d;
+}
+
+.index-benefits {
+  background-color: #eaecee;
+  color: #0b253d;
+}
+
+.index-benefits ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.index-benefits .row div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.index-benefits .row div h5 {
+  width: 100%;
+  margin: auto;
+}
+
+.index-benefits .row div h5:hover {
+  color: orange;
+}
+
+.feature-badge {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-color: #00e3e9;
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-badge:hover {
+  background-color: #0b253d;
+  color: #ffffff;
+}
+
+.index-needs,
+.index-plan {
+  color: #0b253d;
+}
+
+.index-plan {
+  background-color: #eaecee;
+}
+
+.index-cta {
+  background-image: linear-gradient(to bottom right, #00c4d0, #00e3e9);
+  color: #0b253d;
+}
+
+.index-testimonials {
+  background-color: #eaecee;
+  color: #0b253d;
+}
